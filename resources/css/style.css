@@ -1,0 +1,164 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin: 0 auto;
+  color: white;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+nav li{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.maincontent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.mainbanner {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/background.jpg");
+}
+
+.bannertext {
+  background-color: black;
+  width: 100%;
+}
+
+.teamonth {
+  display: flex;
+  flex: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 69px;
+  padding-top: 69px;
+  width: 1000px;
+  text-align: center;
+}
+
+.teapics {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.teapics img {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/locations.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.locationboxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  opacity: 1;
+}
+
+.downtown, .eastbay, .oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px 20px;
+  width: 300px;
+  background-color: black;
+}
+.contactinfo {
+  height: 200px;
+  width: 100%;
+}
+
+.theteacozy {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  text-align: center;
+  margin: 0 auto;
+  height: 200px;
+  width: 1000px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: left;
+  width: 100%;
+}
